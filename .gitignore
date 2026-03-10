@@ -1,0 +1,25 @@
+# Airflow system folders
+logs/
+plugins/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# VS Code
+.vscode/
+
+# Airflow internal files
+airflow.cfg
+airflow.db
+CACHEDIR.TAG
+.lock
+uv.lock
+pyproject.toml
+pyvenv.cfg
+main.py
+.python-version
+config/
